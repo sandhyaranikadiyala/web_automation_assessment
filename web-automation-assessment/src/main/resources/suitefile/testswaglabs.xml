@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SauceDemo">
+    <test name="SauceDemoTest">
+        <classes>
+            <class name="com.atmecs.assessment.scripts.SwagLabsMenuTest" />
+			<!--<class name="com.atmecs.assessment.scripts.CheckoutButtonTest" />-->
+			<class name="com.atmecs.assessment.scripts.SocialMediaButtonsTest"/>
+			<class name="com.atmecs.assessment.scripts.SwagLabsFiltersTest"/>
+			<class name="com.atmecs.assessment.scripts.ProductOrderTest"/>
+			<class name="com.atmecs.assessment.scripts.ProductDetailsTest"/>
+        </classes>
+    </test>
+
+</suite>
